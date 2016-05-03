@@ -171,7 +171,7 @@ public:
 int main(int argc, char *argv[])
 {
 	std::ifstream file;
-	file.open("/home/andres/Documents/01 Documentos/06 Santa Barbara/Lectures/240F/ipython/iris_data.bin",
+	file.open("240F/iris_data.bin",
 	                             std::ifstream::in);
 	if(file.is_open()) {
 		file.read((char *) data, sizeof(float) * 150 * 4);
